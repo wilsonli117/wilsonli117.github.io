@@ -2884,6 +2884,10 @@ i {
 			padding: 0;
 		}
 
+		#first-skill {
+			margin-top: 0;
+		}
+
 		.features > li > p {
 			margin-bottom: 10px;
 			text-align: left;
