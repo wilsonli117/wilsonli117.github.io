@@ -176,6 +176,10 @@ i {
 		margin-right: 10px;
 	}
 
+	form {
+		text-align: left;
+	}
+
 /* Type */
 
 	body {
