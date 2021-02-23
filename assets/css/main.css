@@ -132,11 +132,12 @@ i {
 	.projects li {
 		box-sizing: border-box;
 		width: calc(33% - 1em);
-		height: 600px;
+		height: 650px;
 		margin: 10px;
 		padding: 40px;
 		border: solid 1px #dddddd;
 		border-radius: 10px;
+		overflow: hidden;
 	}
 
 	.projects li img {
@@ -145,21 +146,21 @@ i {
 		overflow-y: hidden;
 	}
 
-	.projects li h4 {
+	.projects li h3 {
 		font-size: 20px;
 		font-weight: 600;
 		border-bottom: solid 1px #dddddd;
 	}
 
-	.projects li p {
-		font-size: 15px;
-		text-align: left;
+	.projects li h4 {
+		font-size: 16px;
+		font-weight: 600;
 	}
 
-
-
-	.projects li p{
-		margin: 0;
+	.projects li > p {
+		font-size: 15px;
+		margin-bottom: 10px;
+		text-align: left;
 	}
 
 	.projects li div{
@@ -167,10 +168,12 @@ i {
 		flex-direction: row;
 		justify-content: space-between;
 		font-size: 15px;
+		
 	}
 
 	.projects li div i {
 		font-size: 15px;
+		margin-right: 10px;
 	}
 
 /* Type */
